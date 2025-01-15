@@ -1,0 +1,9 @@
+.contact-info {
+    background-color: #333;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+}
+.contact-info h2 {
+    margin: 0;
+    font-size: 24px;
