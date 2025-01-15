@@ -29,5 +29,16 @@
         display: inline;
         margin: 0 15px;
     }
+    nav ul li a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+    
+    main {
+        padding: 20px;
+        background: #ffffff;
+        margin: 20px;
+        border-radius: 5px;
+    
     
     
