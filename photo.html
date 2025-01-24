@@ -10,13 +10,13 @@
         <!-- buat area header -->
         <header class="header"></header>
         <!-- buat area menu -->
-        <nav class="navigation">
-            <button class="tombol" onclick="Index()">Index</button>
-            <button class="tombol" onclick="Profil()">Profil</button>
-            <button class="tombol" onclick="Contact()">Contact</button>  
-            <button class="tombol" onclick="Testimonial()">Testimonial</button>
-            <button class="tombol" onclick="Photo()">Photo</button>              
-        </nav>
+        <ul>
+            <button><a href="index.html" button class="button" onclick="Home('Index.html', this)">Home</button></a></li>
+            <button><a href="profil.html" button class="button" onclick="Profil('profil.html', this)">Profil</button></a></li>
+            <button><a href="testimonial.html" button class="button" onclick="Testimonial('Testimonial.html', this)">Testimonial</button></a></li>
+            <button><a href="photo.html" button class="button" onclick="Photo('photo.html', this)">Photos</button></a></li>
+            <button><a href="contact.html" class="button" onclick="Contact('contact.html', this)">Contact Person</button></a></li>
+           </ul>
 </header>
     
 </body>
