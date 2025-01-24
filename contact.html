@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Contact</title>
 </head>
 <body>
     <header> 
         <h1>Contact Person</h1>
-        <navigation>
+        <nav class="navigation">
             <ul>
-                <li><a href="index.html" class="nav-item nav-link active">Home</a></li>
-                <li><a href="profil.html" class="nav-item nav-link active">profil</a></li>
-                <li><a href="testimonial.html" class="nav-item nav-link active">testimonial</a></li>
-                <li><a href="photo.html" class="nav-item nav-link active">photo</a></li>
-                <li><a href="Contact.html" class="nav-item nav-link active">contact</a></li>
+                <button><a href="index.html" button class="button" onclick="Home('Index.html', this)">Home</button></a></li>
+                <button><a href="profil.html" button class="button" onclick="Profil('profil.html', this)">Profil</button></a></li>
+                <button><a href="testimonial.html" button class="button" onclick="Testimonial('Testimonial.html', this)">Testimonial</button></a></li>
+                <button><a href="photo.html" button class="button" onclick="Photo('photo.html', this)">Photos</button></a></li>
+                <button><a href="contact.html" class="button" onclick="Contact('contact.html', this)">Contact Person</button></a></li>
             </ul>
         </navigation>
         <div class="contact-info">
