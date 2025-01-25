@@ -80,3 +80,170 @@ header ul {
     cursor: pointer;
 }
 
+
+/* Reset dan pengaturan dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Mengatur font default */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+header ul button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+header ul button:hover {
+    background-color: #777;
+}
+
+/* Judul dan gambar */
+h2, h1, h4 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1.5em;
+    color: #555;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+/* Section konten */
+h4 {
+    color: #4CAF50;
+}
+
+p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Penilaian */
+div > h2 {
+    font-size: 1.8em;
+    margin-top: 10px;
+    text-align: center;
+}
+
+div > h1 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #4CAF50;
+}
+
+/* Form pendaftaran */
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+form input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Informasi kontak */
+div i {
+    margin-right: 10px;
+}
+
+div p {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+/* Tambahkan padding dan margin */
+div {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form input {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    header ul button {
+        display: block;
+        width: 100%;
+        margin: 5px 0;
+    }
+}
