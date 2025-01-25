@@ -42,46 +42,40 @@ header ul {
     margin: 10px 0;
 }
 
-header ul button {
-    background-color: #555;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    margin: 5px;
-    cursor: pointer;
-    text-align: center;
-}
-
-header ul button:hover {
-    background-color: #777;
-}
-
-/* Form pendaftaran */
-form {
-    display: flex;
-    justify-content: center;
+.area-button
+{
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-form input {
-    padding: 10px;
-    margin-right: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    width: 300px;
-}
-
-form button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
+.button-primary
+{
+    background-color: #14bdcc;
+    height: 40px;
+    padding: 10;
+    width: 120px;
+    color: rgb(248, 236, 10);
+    border: 1px #333333;
+    border-radius: 25px;
     cursor: pointer;
 }
 
-form button:hover {
-    background-color: #45a049;
+.button-primary:hover
+{
+    background-color: rgb(228, 234, 234);
+    border: 1px solid #FF0000;
+    color:rgb(240, 10, 125);
 }
 
+.button-secondary
+{
+    background-color: #a90a2d;
+    height: 40px;
+    padding: 10;
+    width: 120px;
+    color: rgb(203, 244, 20);
+    border: 1px #333333;
+    border-radius: 25px;
+    cursor: pointer;
+}
 
